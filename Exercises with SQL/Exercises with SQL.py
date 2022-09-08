@@ -19,7 +19,7 @@ where Country='USA';
 # ----------------------------------------------------------------------------------------------------------------
 
 
-# *************14. Find the names of the CategoryIDs in the Products table and then show the average
+# ************* 2. Find the names of the CategoryIDs in the Products table and then show the average
 #                                           product price per category ?   *************
 
 
@@ -31,7 +31,7 @@ where Country='USA';
 # ----------------------------------------------------------------------------------------------------------------
 
 
-# ************* 15.Rank the employees (EmployeeID) according to their total sales together with their names ?
+# ************* 3.Rank the employees (EmployeeID) according to their total sales together with their names ?
 
 
 %%sql 
@@ -47,7 +47,7 @@ order by Sales desc;
 # ----------------------------------------------------------------------------------------------------------------
 
 
-# *****************  16.What are the average prices of orders from Germany by category?
+# *****************  4.What are the average prices of orders from Germany by category?
 
 
 %%sql
@@ -64,7 +64,7 @@ group by c.CategoryID;
 # ----------------------------------------------------------------------------------------------------------------
 
 
-# *************  17.What are the average prices of orders from Germany or the USA by category?
+# *************  5.What are the average prices of orders from Germany or the USA by category?
 
 
 %%sql
@@ -81,7 +81,7 @@ group by c.CategoryID;
 # ----------------------------------------------------------------------------------------------------------------
 
 
-# ************* 18.What is the average price of orders placed in June July August?
+# ************* 6.What is the average price of orders placed in June July August?
 
 
 %%sql 
@@ -95,7 +95,7 @@ where o.OrderDate like '%07%' or o.OrderDate like '%08%' or o.OrderDate like '%0
 # ----------------------------------------------------------------------------------------------------------------
 
 
-# ********* 19.Find the maximum quantities of the customers' orders for 1997 and sort them in descending order 
+# ********* 7.Find the maximum quantities of the customers' orders for 1997 and sort them in descending order 
 #                             with the names of the customers ********* ?
 
 
@@ -110,7 +110,7 @@ group by CustomerName
 order by Quantity desc;
 
 
-# ********** 20.Rank the employees who received orders with the order year 1997 according to the number of orders received?
+# ********** 8.Rank the employees who received orders with the order year 1997 according to the number of orders received?
 
 
 %%sql
