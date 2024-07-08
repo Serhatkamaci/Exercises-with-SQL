@@ -1,14 +1,5 @@
-# Exercises-with-SQL
-# HAKKINDA  
+Bu çalışma, veritabanında bulunan farklı tablolar arasında ilişki kurarak çeşitli analizler gerçekleştirmektedir. Bu analizler arasında "ABD'de yaşayan müşterilerin toplam kazançları", "ürün kategorilerine göre ortalama ürün fiyatları", "çalışanların toplam satışlarına göre sıralaması", "Almanya'dan gelen siparişlerin kategori bazında ortalaması", "Almanya veya ABD'den gelen siparişlerin kategori bazında ortalama fiyatları", "Haziran, Temmuz, Ağustos aylarında yapılan ortalama sipariş fiyatı", "1997 yılında müşterilerin yaptığı en yüksek sipariş miktarları ve müşteri adları", "1997 yılında sipariş alan çalışanların sipariş sayısına göre sıralaması" gibi sorgular bulunmaktadır. Bu analizleri gerçekleştirebilmek için, öncelikle bir ".db" formatında bir veritabanı dosyası oluşturup Python programlama dili ile bağlantı kurulmalıdır. Veri setlerini incelemek için önerilen araçlardan biri "DB Browser for SQLite" programıdır; bu programı kullanarak veri tabanı dosyasını detaylı bir şekilde gözden geçirebilirsiniz.
 
-# Bu çalışmada elimizdeki veri setleri ile veri tabanı üzerinde alıştırmalar yaptım.
-# Bu çalışmaları yapabilmeniz için "____.db" şeklinde bir dosya oluşturup python ile bağladıktan sonra alıştırmalara başlayabilirsiniz.
-# Elimizdeki veri setlerini örnek olarak "DB Browser for SQLite" programı ile inceleyebilirsiniz.
+--------------------------------------------------
 
-
-
-# ABOUT  
-
-# In this study, I did exercises on the database with the data sets we have.
-# In order to do these studies, you can start the exercises after creating a file in the form of "____.db" and connecting it with python.
-# For example, you can examine the data sets we have with the "DB Browser for SQLite" program.
+This study performs various analyses by establishing relationships between different tables in a database. These analyses include queries such as "Total earnings of customers living in the USA," "Average product prices by product categories," "Ranking of employees based on total sales," "Average order values from Germany by product category," "Average order values by product category from Germany or the USA," "Average order price during June, July, August," "Highest order amounts and customer names in 1997," and "Ranking of employees who received orders in 1997 by the number of orders." To conduct these analyses, it is necessary to first create a database file in ".db" format and establish a connection using the Python programming language. One of the recommended tools for examining datasets is the "DB Browser for SQLite" program; you can use this program to review the database file in detail.
